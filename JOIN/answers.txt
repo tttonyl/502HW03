@@ -1,0 +1,51 @@
+PS02 Answers:
+
+If your cluster has 1 node, how many wall clock seconds and how
+    many clock seconds (total, across all nodes) will be spent in the map
+    phase:
+
+1a.A: 
+      mapping wall clock time: 10*31 =310 process one file each time
+      mapping total clock time: 10*310 =310
+
+1b. How much time will be spent in the reduce phase:
+
+1b.A: reducing wall clock time: 100      reducing total clock time: 100
+
+1c. How much time will be spent from the beginning of the job to the end:
+
+1c.A: 310 +100 =410
+
+1d. Explain your answer:
+
+1d.A: only one node in my cluster, so the wall clock time equals total clock time.
+
+
+2: If your cluster has 10 nodes, how many wall clock seconds and how
+   many clock seconds will be spent from the beginning to the end?
+
+2.A: wall clock time: if we have 10 nodes, so we can simultaneously handle 10 file.gz at the same time. but there  is still one file need to be process after 3 rounds.after mapping, reducing need 100 seconds. 3*10+10=40seconds  40+100=140
+
+total clock time = 310+100=410
+
+3: If your cluster has 100 nodes, how many wall clock seconds and how
+   many clock seconds will be spent from the beginning to the end?
+
+3.A: wall clock time: if we got 100 nodes, we can process them at the same time. that is 10 seconds.
+10 +100 = 110
+
+total time : 410
+
+4: If your cluster has 1000 nodes, how many wall clock seconds and how
+   many clock seconds will be spent from the beginning to the end?
+
+4.A: the answers are the same to third question. because we just need 31 nodes to obtain the shortest processing time according to the assumption of this question.
+
+
+Extra_credit_question_1 :
+
+reason 1: The file is mainly for January
+
+reason 2: if we run the weblog_bounds.py we can get the earliest and latest logfile date for each logfile. Just the January 31 has some records for Feb 1st.
+
+Also, the last log was recorded in the morning of Feb 1st . It was just a short period compared with whole day.

@@ -1,0 +1,50 @@
+""	500
+"Argentina"	44
+"Australia"	791
+"Austria"	68
+"Belgium"	198
+"Brazil"	208
+"Bulgaria"	86
+"Canada"	1040
+"China"	22323
+"Colombia"	113
+"Czech Republic"	1055
+"Denmark"	140
+"Estonia"	118
+"Finland"	435
+"France"	3500
+"Germany"	26220
+"Hong Kong"	246
+"Hungary"	9
+"India"	873
+"Iran"	57
+"Ireland"	56
+"Israel"	255
+"Italy"	384
+"Japan"	398
+"Macao"	11
+"Malaysia"	90
+"Mexico"	195
+"Monaco"	60
+"Netherlands"	554
+"New Zealand"	26
+"Norway"	226
+"Panama"	122
+"Peru"	79
+"Poland"	456
+"Portugal"	13
+"Republic of Korea"	329
+"Republic of Lithuania"	76
+"Romania"	81
+"Russia"	699
+"Singapore"	587
+"Spain"	412
+"Sweden"	557
+"Switzerland"	302
+"Taiwan"	7
+"Thailand"	92
+"Turkey"	120
+"Ukraine"	1493
+"United Kingdom"	4588
+"United States"	377722
+"Vietnam"	122
